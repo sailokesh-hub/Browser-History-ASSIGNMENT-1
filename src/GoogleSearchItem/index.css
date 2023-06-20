@@ -1,0 +1,53 @@
+.list-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 30px;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 900px;
+}
+
+.domain-logo {
+  width: 30px;
+  margin-right: 20px;
+}
+
+.title {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: 600;
+}
+
+.url {
+  margin-left: 10px;
+  color: #64748b;
+}
+
+.delete-btn {
+  background-color: #ffffff;
+  border: 0;
+  cursor: pointer;
+}
+.title-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.delete-img {
+  width: 20px;
+}
+
+.time {
+  margin-right: 30px;
+  color: #475569;
+  font-weight: 600;
+}
